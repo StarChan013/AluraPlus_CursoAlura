@@ -1,0 +1,26 @@
+:root{ /* Variáveis no CSS */
+    --branco-principal: #ffffff;
+    --cinza-secundario: #C0C0C0;
+    --botao-azul: #167BF7;
+    --cor-de-fundo: #00030C;
+} /*Facilita o processo */
+
+body {
+    background-color: var(--cor-de-fundo);
+    color: var(--branco-principal);
+}
+
+* { /* Seleciona todos os elementos HTML */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    height: 100vh; /*Viewport height */
+}
+
+.principal {
+    background-image: url("img/Background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
